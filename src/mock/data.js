@@ -17,41 +17,50 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: '',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '/resume', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'tmbd.png',
+    title: 'TMBD',
+    info: 'Movie app that is similar in style to IMBD',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://teras43.github.io/movieGroupProject/login',
+    repo: 'https://github.com/Teras43/movieGroupProject', 
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'helix.png',
+    title: 'E-commerce Store',
+    info: 'Mock online store.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://teras43.github.io/eCommerceStore/',
+    repo: 'https://github.com/Teras43/eCommerceStore', 
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'earthQuake.png',
+    title: 'Earth Quake App',
+    info: 'Application that tracks earthquake data of Utah.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://rothkoros.github.io/CapstoneProject2470/index.html',
+    repo: 'https://github.com/Rothkoros/CapstoneProject2470', 
+  },
+  {
+    id: nanoid(),
+    img: 'restaurant.png',
+    title: 'Restaurant Page',
+    info: 'Simple mock restaurant page',
+    info2: '',
+    url: 'https://rothkoros.github.io/Restaurant/',
+    repo: 'https://github.com/Rothkoros/Restaurant', 
   },
 ];
 
@@ -59,7 +68,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ndombrosky@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +76,15 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nicholas-dombrosky-0806ba15a/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Rothkoros?tab=repositories',
     },
   ],
 };
 
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
-};
+

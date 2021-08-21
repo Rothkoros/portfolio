@@ -27,11 +27,11 @@ const About = () => {
       <Container>
         <Title title="About Me" />
         <Row className="about-wrapper">
-          <Col md={6} sm={12}>
+          <Col md={3} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
-              <div className="about-wrapper__image">
+              {/* <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
-              </div>
+              </div> */}
             </Fade>
           </Col>
           <Col md={6} sm={12}>
