@@ -5,7 +5,6 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import { PortfolioProvider } from '../context/context';
-import Resume from '../pages/resume';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
 
@@ -32,7 +31,6 @@ function App() {
       <Contact />
       <Footer />
     </PortfolioProvider>
-  
   );
 }
 
