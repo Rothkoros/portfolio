@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne: 'wowow',
+  paragraphTwo: 'wowowo',
   paragraphThree: '',
   resume: '/resume', // if no resume, the button will not show up
 };
@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'Movie app that is similar in style to IMBD',
     info2: '',
     url: 'https://teras43.github.io/movieGroupProject/login',
-    repo: 'https://github.com/Teras43/movieGroupProject', 
+    repo: 'https://github.com/Teras43/movieGroupProject',
   },
   {
     id: nanoid(),
@@ -42,7 +42,7 @@ export const projectsData = [
     info: 'Mock online store.',
     info2: '',
     url: 'https://teras43.github.io/eCommerceStore/',
-    repo: 'https://github.com/Teras43/eCommerceStore', 
+    repo: 'https://github.com/Teras43/eCommerceStore',
   },
   {
     id: nanoid(),
@@ -51,7 +51,7 @@ export const projectsData = [
     info: 'Application that tracks earthquake data of Utah.',
     info2: '',
     url: 'https://rothkoros.github.io/CapstoneProject2470/index.html',
-    repo: 'https://github.com/Rothkoros/CapstoneProject2470', 
+    repo: 'https://github.com/Rothkoros/CapstoneProject2470',
   },
   {
     id: nanoid(),
@@ -60,7 +60,7 @@ export const projectsData = [
     info: 'Simple mock restaurant page',
     info2: '',
     url: 'https://rothkoros.github.io/Restaurant/',
-    repo: 'https://github.com/Rothkoros/Restaurant', 
+    repo: 'https://github.com/Rothkoros/Restaurant',
   },
 ];
 
@@ -86,5 +86,3 @@ export const footerData = {
     },
   ],
 };
-
-
