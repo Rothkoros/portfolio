@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: '',
+  lang: '',
+  description: '',
 };
 
 // HERO DATA
@@ -18,18 +18,18 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: 'wowow',
-  paragraphTwo: 'wowowo',
-  paragraphThree: '',
-  resume: '/resume', // if no resume, the button will not show up
+  paragraphOne: `I am a Jr. Developer and Computer Science student at Salt Lake Community College and Mountainland Technical College. My goals are to complete my education in computer science and further my career with a great team that I can learn with to become a full stack engineer.`,
+  paragraphTwo: '',
+  paragraphThree: `I have a passion for tinkering and learning. Whether it's tuning my 3d printer and editing firmware to setting up a raspberry Pi to communicate with Discord bots. I love video games, campfires, and a good cup of coffee.`,
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'tmbd.png',
-    title: 'TMBD',
+    img: 'tmdb.png',
+    title: 'TMDB',
     info: 'Movie app that is similar in style to IMBD',
     info2: '',
     url: 'https://teras43.github.io/movieGroupProject/login',
